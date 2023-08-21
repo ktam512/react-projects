@@ -21,7 +21,7 @@ function App() {
           src = {pizza} 
           className = "logo" 
           alt = "Pizza logo"
-          style = {{width:40, height:40}}
+          style = {{width:80, height:80}}
          />
       </div>
       <h1>Vite + React</h1>
