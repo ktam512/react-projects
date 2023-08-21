@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import pizza from './assets/pizza.png'
 import './App.css'
 
 function App() {
@@ -15,6 +16,13 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+        <p>Have a pizza !</p>
+        <img 
+          src = {pizza} 
+          className = "logo" 
+          alt = "Pizza logo"
+          style = {{width:40, height:40}}
+         />
       </div>
       <h1>Vite + React</h1>
       <div className="card">
