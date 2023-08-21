@@ -14,13 +14,19 @@ body {
 
 nav {
     display:flex;
+    flex-direction: row;
+    justify-content: center;
     background-color: black;
 }
 
-nav h2 {
-    color:rgb(55, 179, 221);
+.nav--icon_text {
+    color: #61DAFB;
+    margin-left: 10px;
+    margin-right:400px;
 }
 
-nav h3 {
-    color:azure;
+.nav--title {
+    color: #DEEBF8;
+    margin-top: 25px;
+    margin-left: 400px;
 }
