@@ -4,7 +4,11 @@
 
 body {
     margin: 0;
-    font-family: "Inter";
+    font-family: "Inter",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+
 }
 /* Navigation Bar */
 
@@ -18,5 +22,5 @@ nav h2 {
 }
 
 nav h3 {
-    color:antiquewhite;
+    color:azure;
 }
