@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+/* Navigation Bar */
+
+nav {
+    display:flex;
+    background-color: black;
+}
+
+nav h2 {
+    color:rgb(55, 179, 221);
+}
+
+nav h3 {
+    color:antiquewhite;
+}
