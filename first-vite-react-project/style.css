@@ -30,3 +30,37 @@ nav {
     margin-top: 25px;
     margin-left: 400px;
 }
+
+/* Main section */
+
+.main {
+    background-color: #282D35;
+    color: #DEEBF8;
+    height:100%;
+    padding-left:110px;
+}
+
+.main--headline {
+    margin:0;
+    padding-top:50px;
+    font-size:45px;
+}
+
+.main--list {
+    margin-top:46px;
+}
+
+.main--list_element {
+    list-style: none;
+    font-size:25px;
+    padding-block: 15px;
+}
+
+.main--list_element::before {
+    content: "\2022";
+    color:#61DAFB;
+    font-weight:bold;
+    font-size: 25px;
+    margin-right:10px;
+
+}
