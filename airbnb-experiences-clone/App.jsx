@@ -8,7 +8,7 @@ Check the Figma file for the design specifics.
 export default function App() {
     return (
         <div>
-            <Navbar></Navbar>
+            <Navbar/>
         </div>
     )
 }
