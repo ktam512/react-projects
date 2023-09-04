@@ -25,7 +25,7 @@ export default function Card() {
             <img src = "../images/katie-zaferes.png" className = "card--photo"></img>
             <div className = "card--review">
                 <img src = "../images/red-star.png" className = "card--review_star"></img>
-                <p className = "card--review_text"> 5.0 <span>(6)·USA</span></p>
+                <p className = "card--review_text"> 5.0 <span> (6) · USA</span></p>
             </div>
             <p className = "card--description">Life lessons with Katie Zaferes</p>
             <p className = "card--price"><strong>From 136$ /</strong>person</p>
