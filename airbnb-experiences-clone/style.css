@@ -1,11 +1,13 @@
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 
 body {
     margin: 0;
 }
+
+/* Navbar */
 
 nav {
     height:70px;
@@ -18,10 +20,40 @@ nav {
     max-width:100px;
 }
 
-section {
+/* Hero section */
+
+.hero {
     padding: 20px 20px 20px 100px;
 }
 
 .hero--text {
     font-size:25px;
+    margin-top:0px;
+}
+
+/* Card section */
+.card {
+    width:200px;
+    display:flex;
+    flex-direction: column;
+}
+.card--photo {
+    width:200px;
+}
+
+.card--review {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card--review_star {
+    max-height:20px;
+    max-width:20px;
+    padding-right:5px;
+}
+
+.card--review_text span {
+    color: gray;
 }
