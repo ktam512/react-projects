@@ -62,3 +62,7 @@ nav {
 .card--description {
     margin:0px;
 }
+
+.card--price span{
+   font-weight:bold;
+}

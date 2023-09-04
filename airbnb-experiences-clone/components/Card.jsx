@@ -28,7 +28,7 @@ export default function Card() {
                 <p className = "card--review_text"> 5.0 <span> (6) · USA</span></p>
             </div>
             <p className = "card--description">Life lessons with Katie Zaferes</p>
-            <p className = "card--price"><strong>From 136$ /</strong>person</p>
+            <p className = "card--price"><span>From 136$ /</span>person</p>
 
 
         </div>
