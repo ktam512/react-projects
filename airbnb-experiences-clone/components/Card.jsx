@@ -19,16 +19,17 @@ Notes:
   this data into the component.
 */
 
-export default function Card() {
+export default function Card( props) {
+    console.log(props)
     return (
         <div className = "card">
-            <img src = "../images/katie-zaferes.png" className = "card--photo"></img>
+            <img src = {"../images/" + props.img} className = "card--photo"></img>
             <div className = "card--review">
                 <img src = "../images/red-star.png" className = "card--review_star"></img>
-                <p className = "card--review_text"> 5.0 <span> (6) · USA</span></p>
+                <p className = "card--review_text"> {props.rating} <span> ({props.reviewCount}) · {props.country}</span></p>
             </div>
-            <p className = "card--description">Life lessons with Katie Zaferes</p>
-            <p className = "card--price"><span>From 136$ /</span>person</p>
+            <p className = "card--description">{props.title}</p>
+            <p className = "card--price"><span>From {props.price}$ /</span>person</p>
 
 
         </div>
