@@ -32,14 +32,27 @@ nav {
 }
 
 /* Card section */
+.card--list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
 .card {
     margin:20px 20px 20px 50px;
     width:250px;
+    flex: 0 0 auto;
     display:flex;
     flex-direction: column;
+
 }
 .card--photo {
     width:250px;
+}
+
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card--review {
@@ -61,6 +74,10 @@ nav {
 
 .card--description {
     margin:0px;
+}
+
+.card--price {
+    margin-top: auto;
 }
 
 .card--price span{

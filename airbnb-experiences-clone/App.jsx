@@ -9,6 +9,7 @@ export default function App() {
     const cardElements = data.map(data => {
         return (
         <Card 
+        key = {data.id}
         title = {data.title}
         price = {data.price}
         img = {data.coverImg}
@@ -21,8 +22,11 @@ export default function App() {
     return (
         <div>
             <Navbar/>
-            <Hero/>
-            {cardElements}
+            {/* <Hero/> */}
+            <div className = "card--list">
+                {cardElements}
+            </div>
+            
         </div>
     )
 }
