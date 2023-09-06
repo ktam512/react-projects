@@ -17,7 +17,7 @@ export default function App() {
     return (
         <div>
             <Navbar/>
-            {/* <Hero/> */}
+            <Hero/>
             <div className = "card--list">
                 {cardElements}
             </div>
