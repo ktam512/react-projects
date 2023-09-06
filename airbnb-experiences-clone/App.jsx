@@ -16,6 +16,7 @@ export default function App() {
         rating = {data.stats.rating}
         reviewCount = {data.stats.reviewCount}
         location = {data.location}
+        openSpots = {data.openSpots}
         />
         ) 
     })
