@@ -21,21 +21,21 @@ Notes:
 
 export default function Card( props) {
     let badgeText
-    if(props.openSpots === 0){
+    if(props.item.openSpots === 0){
         badgeText = "SOLD OUT"
-    }else if (props.location == "Online"){
+    }else if (props.item.location == "Online"){
         badgeText = "ONLINE"
     }
     return (
         <div className = "card">
             {badgeText && <div className = "card--badge">{badgeText}</div>}
-            <img src = {"../images/" + props.img} className = "card--photo"></img>
+            <img src = {"../images/" + props.item.coverImg} className = "card--photo"></img>
             <div className = "card--review">
                 <img src = "../images/red-star.png" className = "card--review_star"></img>
-                <p className = "card--review_text"> {props.rating} <span> ({props.reviewCount}) · {props.location}</span></p>
+                <p className = "card--review_text"> {props.item.stats.rating} <span> ({props.item.stats.reviewCount}) · {props.item.location}</span></p>
             </div>
-            <p className = "card--description">{props.title}</p>
-            <p className = "card--price"><span>From {props.price}$ /</span>person</p>
+            <p className = "card--description">{props.item.title}</p>
+            <p className = "card--price"><span>From {props.item.price}$ /</span>person</p>
 
 
         </div>
